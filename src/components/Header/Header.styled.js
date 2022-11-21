@@ -7,7 +7,7 @@ export const StyledLink = styled(NavLink)`
   font-size: ${p => p.theme.fontSizes.xl};
 
   &.active {
-    color: orange;
+    color: blue;
     text-decoration: underline;
   }
 
@@ -24,9 +24,10 @@ export const StyledLink = styled(NavLink)`
 export const Layout = styled.header`
   display: flex;
   align-items: 'center';
+  padding-left: 40px;
   padding-top: ${p => p.theme.space[4]}px;
   padding-bottom: ${p => p.theme.space[4]}px;
   box-shadow: ${p => p.theme.shadows.header};
   margin-bottom: ${p => p.theme.space[4]}px;
-  background-color: ${p => p.theme.colors.white};
+  background-color: ${p => p.theme.colors.pageBgColor};
 `;

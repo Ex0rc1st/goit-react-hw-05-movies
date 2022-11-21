@@ -10,7 +10,7 @@ export const theme = {
     bold: 700,
   },
   colors: {
-    pageBgColor: 'rgb(242 242 255)',
+    pageBgColor: 'rgba(255, 255, 195, 0.48)',
     white: '#ffffff',
     black: '#000000',
     red: 'red',
@@ -21,11 +21,11 @@ export const theme = {
     btnBg: '#337ab7',
     outline: 'rgba(255, 255, 255, 0)',
     error: 'red',
-    hover: 'orange',
+    hover: 'blue',
   },
   shadows: {
-    shadow: '0px 0px 5px 0px rgba(0, 0, 0, 0.75)',
-    header: '0px 2px 14px -4px rgba(0, 0, 0, 0.75)',
+    shadow: '0px 0px 5px 0px rgba(46, 39, 245, 0.75)',
+    header: '0px 2px 14px -4px rgba(46, 39, 245, 0.75)',
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
   radii: {
